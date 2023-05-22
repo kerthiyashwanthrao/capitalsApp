@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.container {
+  background-color: #93c5fd;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  height: 40vh;
+  width: 40vw;
+  background-color: #ffffff;
+}
+.heading {
+  color: #000000;
+  font-size: 30px;
+}
+.optionsContainer {
+  padding: 5px;
+  color: #000000;
+  display: flex;
+}
+.question {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.capital {
+  color: #323f4b;
+  font-size: 20px;
+  text-align: left;
+}
